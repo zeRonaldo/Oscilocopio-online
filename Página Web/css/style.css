@@ -1,0 +1,52 @@
+.header{
+	
+}
+.header{
+	font-weight: bold;
+  color: #fefefe;
+  background-image: url("../img/DSC_3072.jpg");
+  background-position: bottom;
+  background-size: auto;
+}
+.grafico{
+  min-height: 300px;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  .main {
+    flex: 1 0 auto;
+  }
+  .up-down{
+  	padding-top: 2em;
+  	padding-bottom: 2em;
+  }
+  .nomb{
+    margin-bottom: 0;
+  }
+
+#erro{
+   position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: hidden; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+#erro > .container{
+    background-color: #fff;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+.slide{
+  min-height: 80vh;
+  max-height: 80vh; 
+}
